@@ -1,12 +1,11 @@
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    display:flex;
+body {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -15,11 +14,11 @@ body{
 
 }
 
-.content{
+.content {
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     border: 1px solid black;
-    box-shadow:  0 25px 25px black;
+    box-shadow: 0 25px 25px black;
     padding: 15px;
     max-width: 384px;
     display: flex;
@@ -28,19 +27,20 @@ body{
     margin-bottom: 2rem;
 }
 
-.picture{
+.picture {
     width: 100%;
-    border-radius: 10px;    border-radius: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
 }
 
-.picture img{
+.picture img {
     border-radius: 10px;
     width: 100%;
-    height:auto;
+    height: auto;
     display: block;
 }
 
-.l-tag{
+.l-tag {
     align-self: flex-start;
     background-color: hsl(47, 88%, 63%);
     padding: 5px;
@@ -49,37 +49,44 @@ body{
     border-radius: 5px;
 }
 
-.l-tag:hover{
+.l-tag:hover {
     background-color: orange;
 }
 
-.heading{
+.heading {
     color: hsl(47, 88%, 63%);
     font-size: 16px;
 }
 
-.heading:hover{
+.heading:hover {
     color: orange;
 }
 
-.description{
+.description {
     color: hsl(0, 0%, 7%);
     font-size: 16px;
 }
 
-.greg{
+.greg {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.attribution { 
-    align-self:flex-end;
-    font-size: 0.6875rem; 
-    text-align: center; 
+.greg:hover {
+    color: orange;
+}
+
+.attribution {
+    align-self: flex-end;
+    font-size: 0.6875rem;
+    text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
 }
 
+.attribution a:hover {
+    color: orange;
+}
